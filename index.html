@@ -103,6 +103,24 @@
                     </button>
                 </div>
             </div>
+            <div class="dropdown-area mt-5">
+                <!-- Example single danger button -->
+                <div class="btn-group">
+                    <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Action
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="card-area mt-5">
                 <div class="row">
                     <div class="col-12 col-md-4 col-lg-3">
@@ -124,7 +142,8 @@
                 <form class="row g-3">
                     <div class="col-6">
                         <label for="inputFirstName" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="inputFirstName" placeholder="Enter your first name" />
+                        <input type="text" class="form-control" id="inputFirstName"
+                            placeholder="Enter your first name" />
                     </div>
                     <div class="col-6">
                         <label for="inputLastName" class="form-label">Last Name</label>
@@ -175,6 +194,101 @@
                         <button type="submit" class="btn btn-primary">Sign in</button>
                     </div>
                 </form>
+            </div>
+            <div class="list-area mt-5">
+                <ul class="list-group">
+                    <li class="list-group-item">A simple default list group item</li>
+
+                    <li class="list-group-item list-group-item-primary">
+                        A simple primary list group item
+                    </li>
+                    <li class="list-group-item list-group-item-secondary">
+                        A simple secondary list group item
+                    </li>
+                    <li class="list-group-item list-group-item-success">
+                        A simple success list group item
+                    </li>
+                    <li class="list-group-item list-group-item-danger">
+                        A simple danger list group item
+                    </li>
+                    <li class="list-group-item list-group-item-warning">
+                        A simple warning list group item
+                    </li>
+                    <li class="list-group-item list-group-item-info">
+                        A simple info list group item
+                    </li>
+                    <li class="list-group-item list-group-item-light">
+                        A simple light list group item
+                    </li>
+                    <li class="list-group-item list-group-item-dark">
+                        A simple dark list group item
+                    </li>
+                </ul>
+            </div>
+            <div class="pagination-area mt-5">
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#">Previous</a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="table-area mt-5">
+                <table class="table table-success table-striped">
+                    <tr class="table-primary">
+                        <th>cell</th>
+                        <th>cell</th>
+                        <th>cell</th>
+                        <th>cell</th>
+                    </tr>
+                    <tr class="table-danger">
+                        <td>cell</td>
+                        <td>cell</td>
+                        <td>cell</td>
+                        <th>cell</th>
+                    </tr>
+                    <tr class="table-secondary">
+                        <td>cell</td>
+                        <td>cell</td>
+                        <td>cell</td>
+                        <th>cell</th>
+                    </tr>
+                    <tr>
+                        <td>cell</td>
+                        <td>cell</td>
+                        <td>cell</td>
+                        <th>cell</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="progress-bar-area mt-5 mb-5">
+                <div class="progress mt-5" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <div class="progress-bar bg-secondary" style="width: 0%"></div>
+                </div>
+                <div class="progress mt-5" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <div class="progress-bar bg-danger" style="width: 25%"></div>
+                </div>
+                <div class="progress mt-5" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <div class="progress-bar" style="width: 50%"></div>
+                </div>
+                <div class="progress mt-5" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+                    aria-valuemax="100">
+                    <div class="progress-bar bg-info" style="width: 75%"></div>
+                </div>
+                <div class="progress mt-5" role="progressbar" aria-label="Basic example" aria-valuenow="100"
+                    aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar bg-success" style="width: 100%"></div>
+                </div>
             </div>
         </div>
     </main>
